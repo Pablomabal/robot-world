@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  car: one
+  computer: one
+  defective: false
+  part_type: MyString
+
+two:
+  car: two
+  computer: two
+  defective: false
+  part_type: MyString
