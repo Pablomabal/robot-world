@@ -77,3 +77,7 @@ end
 every 1.minute do
     runner 'CarsFactory.checkStoreStock'
 end
+
+every 1.day do
+    runner 'CarsFactory.pullDailyRevenue'
+end

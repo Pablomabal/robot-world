@@ -1,10 +1,18 @@
-## Some things i want to say
+## Some things about the challenge
 I dont really like the model solution i came up with. I wanted to make a hierarchy of parts, each class having it's own table with their respective own attributes and a parent table with the common attributes (in this case if the part is defective, the car id etc).
 That would have allowed me to make computer extend car_part and have it's own logic but i just could not make  it work, i found a solution with a single table but i didnt like it more than what i ended up doing.
 
 There are probably a lot of files that arent needed for the project, i did SOME cleanup but after a while i deleted required files so i stopped
 
 There is a small bash script to start the app, it setups whenever, updates the cront_tab of the host and starts the app.
+
+About the solutions:
+
+The stock problem i solved by checking the stock each time an order is placed, if needed and available at the factory, the stock is replenished for that model. Tried to make more like an observer pattern but had a few issues making it work properly.
+
+The request per hour issue i just created an API to be consumed that changes an order so the buyerRobot can do as many changes as he wants :)
+
+
 
 ## Forewords
 First of all, thanks for taking the time to take this tech challenge. We really appreciate it. And now, are you ready to rumble? :)
